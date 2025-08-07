@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8f8;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 70px;
+    background: #fff;
+    border-right: 1px solid #eee;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .sidebar nav ul li img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .feed {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .profile .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile h2 {
+    margin: 0;
+  }
+  
+  .edit-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  .post-box textarea {
+    resize: none;
+    height: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .post-box button {
+    width: 100px;
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-header .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-header strong {
+    display: block;
+  }
+  
+  .post-header span {
+    color: gray;
+    font-size: 13px;
+  }
+  
+  .post-info {
+    color: gray;
+    font-size: 14px;
+    margin-top: 8px;
+  }
